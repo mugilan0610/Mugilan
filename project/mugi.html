@@ -121,7 +121,7 @@ function generateRandomBooks() {
     "The Neutral",
     "The gost",
     "MUGILAN",
-    // Add more book titles here
+    
   ];
 
   var authors = [
@@ -140,7 +140,7 @@ function generateRandomBooks() {
     "naruto",
     "Lakshna",
     "Danger",
-    // Add more authors here
+    
   ];
 
   var subjects = [
@@ -159,7 +159,7 @@ function generateRandomBooks() {
     "subapters",
     "SNOWING",
     "magic",
-    // Add more subjects here
+    
   ];
 
   for (var i = 0; i < 25; i++) {
@@ -266,7 +266,7 @@ function filterBooks() {
   displayBooks(filteredBooks);
   setupPagination();
 
-  // Open filtered books in a new tab
+  
   var filteredBooksURL = "https://res.cloudinary.com/dpdqvwdxc/image/upload/v1688663100/IMG_20230706_222946_bevpcf.jpg";
   filteredBooksURL += "?title=" + encodeURIComponent(titleFilter);
   filteredBooksURL += "&author=" + encodeURIComponent(authorFilter);
